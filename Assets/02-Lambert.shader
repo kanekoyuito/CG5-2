@@ -2,9 +2,9 @@
 {
     SubShader
     {
-       Pass
-       {
-           CGPROGRAM
+        Pass
+        {
+             CGPROGRAM
            #pragma vertex vert
            #pragma fragment frag
            #include "UnityCG.cginc"
@@ -39,7 +39,6 @@
                return diffuse;
            }
            ENDCG
-       }
+        }
     }
-}
 }
