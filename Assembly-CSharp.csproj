@@ -66,6 +66,7 @@
   <ItemGroup>
     <None Include="Assets\01-Simple.shader" />
     <None Include="Assets\02-Lambert.shader" />
+    <None Include="Assets\03-Specular.shader" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
